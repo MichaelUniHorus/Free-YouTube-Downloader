@@ -2,7 +2,7 @@
 
 # OpenTube
 
-*Free YouTube Downloader*
+*Free, ad-free, open-source YouTube Downloader*
 
 [Русский](#русский) | [English](#english)
 
@@ -40,6 +40,8 @@
 ### Описание
 
 OpenTube -- это бесплатное десктопное приложение для загрузки видео и аудио с YouTube. Скачивайте контент в разных качествах, конвертируйте звук в MP3 и управляйте историей загрузок в одном окне.
+
+Приложение полностью бесплатное, без рекламы и с открытым исходным кодом.
 
 > В портативную сборку уже включён FFmpeg. При запуске из исходников FFmpeg необходимо установить отдельно.
 
@@ -185,6 +187,8 @@ mypy opentube
 ### Description
 
 OpenTube is a free desktop application for downloading YouTube videos and audio. Download content in different qualities, convert sound to MP3, and manage your download history in a single window.
+
+The application is completely free, ad-free, and open-source.
 
 > FFmpeg is bundled in the portable build. For source installation, install FFmpeg separately.
 
