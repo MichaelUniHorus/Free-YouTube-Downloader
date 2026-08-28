@@ -1,5 +1,6 @@
 import os
 import re
+import sys
 import shutil
 import glob
 import subprocess
@@ -11,12 +12,20 @@ import yt_dlp
 
 
 def _find_ffmpeg() -> Optional[str]:
+    # 1. Bundled FFmpeg next to the .exe (portable build)
+    exe_dir = os.path.dirname(sys.executable)
+    if os.path.exists(os.path.join(exe_dir, "ffmpeg.exe")):
+        return exe_dir
+
+    # 2. WinGet FFmpeg
     winget = os.path.expandvars(
         r"%LOCALAPPDATA%\Microsoft\WinGet\Packages\Gyan.FFmpeg*\ffmpeg*\bin"
     )
     matches = sorted(glob.glob(winget), reverse=True)
     if matches:
         return matches[0]
+
+    # 3. System PATH
     path = shutil.which("ffmpeg")
     if path:
         return os.path.dirname(path)
