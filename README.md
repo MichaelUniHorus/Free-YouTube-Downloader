@@ -24,6 +24,7 @@
 
 ### Содержание
 
+- [О проекте](#ru-about)
 - [Описание](#ru-description)
 - [Возможности](#ru-features)
 - [Установка](#ru-installation)
@@ -33,6 +34,13 @@
 - [Разработка](#ru-development)
 - [Участие в проекте](#ru-contributing)
 - [Лицензия](#ru-license)
+
+<a name="ru-about"></a>
+<!-- ====== О проекте ====== -->
+
+### О проекте
+
+OpenTube создан как простой, бесплатный и безопасный инструмент для загрузки контента с YouTube. Никаких аккаунтов, рекламы или платных функций.
 
 <a name="ru-description"></a>
 <!-- ====== Описание ====== -->
@@ -171,6 +179,7 @@ mypy opentube
 
 ### Table of Contents
 
+- [About](#en-about)
 - [Description](#en-description)
 - [Features](#en-features)
 - [Installation](#en-installation)
@@ -180,6 +189,13 @@ mypy opentube
 - [Development](#en-development)
 - [Contributing](#en-contributing)
 - [License](#en-license)
+
+<a name="en-about"></a>
+<!-- ====== About ====== -->
+
+### About
+
+OpenTube was built as a simple, free, and safe tool for downloading YouTube content. No accounts, no ads, no paid features.
 
 <a name="en-description"></a>
 <!-- ====== Description ====== -->
